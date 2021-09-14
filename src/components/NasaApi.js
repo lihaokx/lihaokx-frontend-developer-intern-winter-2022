@@ -1,11 +1,11 @@
 import useFetch from "react-fetch-hook";
-import { useEffect, useState } from 'react';
+import React, { useEffect, useState } from 'react';
 // import { Col, Row } from 'reactstrap';
 import Search from "./Search";
 import Picture from "./Picture";  
 import ClipLoader from "react-spinners/ClipLoader";
 // import { RiHeartLine, RiFacebookLine, RiTwitterLine, RiCalendarLine } from 'react-icons/ri';
- 
+import Header from './Header';
  
  
 function NasaApi() {
@@ -72,14 +72,29 @@ function NasaApi() {
 
     if(!isLoadPicState){
         return ( 
-            renderPic(picState)
+            <React.Fragment>
+                <div>
+                    <Header isLoadPicState ={isLoadPicState}/>
+                </div>
+
+                <div className = "row justify-content-center" >
+                    <div className = "col-10">
+                        {renderPic(picState)}
+                    </div>
+                </div>
+            </React.Fragment>
         );
     }
     else{
         return(
-            <div className = "loading">
-                 <ClipLoader size={150} />
-            </div>
+            <React.Fragment>
+                <div>
+                    <Header isLoadPicState ={isLoadPicState}/>
+                </div>
+                <div className = "loading">
+                    <ClipLoader size={150} />
+                </div>
+           </React.Fragment>
         )
     }
 }
