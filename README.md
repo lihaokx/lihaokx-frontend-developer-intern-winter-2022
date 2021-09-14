@@ -1,4 +1,4 @@
-# Frontend Feveloper Intern Winter-2022
+# [Frontend Feveloper Intern Winter-2022](https://lihaokx.github.io/lihaokx-frontend-developer-intern-winter-2022/)
 
 This project is built to help share photos from one of [NASA’s image APIs](https://api.nasa.gov/). It can pull images, and allow the user to “like” and “unlike” their favourite images. 
 
@@ -33,6 +33,5 @@ The build is minified and the filenames include the hashes.\
 Your app is ready to be deployed!
 
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-## Learn More
+ 
 
