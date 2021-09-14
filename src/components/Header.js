@@ -2,7 +2,7 @@
 import {WiStars} from "react-icons/wi";
 import {   GiAstronautHelmet} from "react-icons/gi";
 import {RiGithubFill} from "react-icons/ri";
-import { Button } from 'reactstrap';
+ 
 
 function Header() {
 
@@ -20,8 +20,8 @@ function Header() {
                         <p className="headertext1 col ">I am <b> Hao Li</b>. Welcome to Spcacetagram</p>
                     
                         <p className="headertext2 col ">Share photos from <a href="https://api.nasa.gov/"  target="_blank" rel="noreferrer" > NASA’s APOD image API </a></p>
-                        <a href = "#search" className="headertext2">
-                          <Button> Get Started  </Button>
+                        <a href = "#search" className="headertext2 btn btn-primary">
+                           Get Started  
                         </a>
                 </div>
                 <div  className ="col-12 backgroundHead" >
