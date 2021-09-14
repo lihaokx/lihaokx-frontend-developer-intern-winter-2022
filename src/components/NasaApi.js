@@ -36,12 +36,12 @@ function NasaApi() {
                 <div className ="row mb-3 searchdiv">
                     <Search q={q} setQ ={setQ} />
                 </div>
-                <button onClick ={(e)=>{
+                {/* <button onClick ={(e)=>{
                     localStorage.removeItem("islike");
                     setIslike(Array(data.length).fill(false));
                 }} >
+                </button> */}
 
-                </button>
                 <div className ="row">
                     {
                     searchParam(pics).map((pic )=>{
@@ -68,7 +68,7 @@ function NasaApi() {
             .then(()=> {setIsExplan(Array(data.length).fill(false))} )
             .then(setIsLoadPicState(false));
         }    
-    }, [isLoading]);
+    }, [isLoading, data]);
 
     if(!isLoadPicState){
         return ( 

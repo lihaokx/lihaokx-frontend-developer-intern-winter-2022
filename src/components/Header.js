@@ -15,21 +15,21 @@ function Header() {
             </div>
             <div className="row align-items-center">
 
-                <div className = "col-md-8 offset-2 headertext ">
+                <div className = "col-md-8 offset-md-2 headertext ">
                     
                         <p className="headertext1 col ">I am <b> Hao Li</b>. Welcome to Spcacetagram</p>
                     
                         <p className="headertext2 col ">Share photos from <a href="https://api.nasa.gov/"  target="_blank" rel="noreferrer" > NASA’s APOD image API </a></p>
                         <a href = "#search" className="headertext2">
-                          Get Started  
+                          <Button> Get Started  </Button>
                         </a>
                 </div>
-                <div  className ="col-12" >
-                    <div className ="backgroundHead row " >
-                        <div className ="col-2 offset-1">
+                <div  className ="col-12 backgroundHead" >
+                    <div className =" row " >
+                        <div className ="col-md-2 offset-md-1">
                             <WiStars  size = "10rem" className="spaceIcon"/>
                         </div>
-                        <div className ="col-2 offset-6">
+                        <div className ="col-md-2 offset-md-6">
                             <GiAstronautHelmet size = "15rem"  className="spaceIcon"/>
                         </div>
                     </div>

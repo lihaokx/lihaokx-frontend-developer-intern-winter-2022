@@ -22,7 +22,7 @@ const Picture = (props) => {
 
     return(
         <div  className ="col-md-6" >
-        <Card className="mb-5 everyCard">
+        <Card className="mb-3 everyCard">
       
             <CardBody>
                 <CardTitle tag="h5" className = "cardTitle">{pic.title}</CardTitle>
@@ -60,7 +60,7 @@ const Picture = (props) => {
                     </TwitterShareButton> 
                 </Col>
             </Row>
-            <CardBody>
+            <CardBody className="pt-0">
                 {!isExplan[pic.id] ? 
                     <CardText  className="textInCard" > 
                          {pic.explanation.substring(0, 200)} ... <span className ="moreSpan" onClick={()=>{
