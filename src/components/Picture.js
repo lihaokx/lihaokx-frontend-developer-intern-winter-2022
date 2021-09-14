@@ -15,7 +15,7 @@ const Picture = (props) => {
 
     useEffect(()=>{
         localStorage.setItem("islike", islike);
-        console.log("islike: ", islike)
+        // console.log("islike: ", islike)
     }
         ,[islike]
     );
@@ -35,13 +35,13 @@ const Picture = (props) => {
                     onClick = {() => {
                         if(!islike[pic.id]){
                             setIslike(islike.map((curr, i)=>{
-                                if(pic.id == i){curr = true;}
+                                if(pic.id === i){curr = true;}
                                 return curr;
                             }));
                         }
                         else{
                             setIslike(islike.map((curr, i)=>{
-                                if(pic.id == i){curr = false;}
+                                if(pic.id === i){curr = false;}
                                 return curr;
                             }));
                         }
@@ -50,13 +50,13 @@ const Picture = (props) => {
                     />
                 </Col>
                 <Col xs ={2} md={1}> 
-                    <FacebookShareButton url= {pic.url} >
-                        <RiFacebookLine size ="2rem" className = "socialIcon"/>
+                    <FacebookShareButton url= {pic.url}  >
+                        <RiFacebookLine size ="2rem" className = "socialIcon fb"/>
                     </FacebookShareButton> 
                 </Col>
                 <Col xs ={2} md={1}> 
-                    <TwitterShareButton url= {pic.url} >
-                        <RiTwitterLine size ="2rem"   className = "socialIcon"/>
+                    <TwitterShareButton url= {pic.url}  >
+                        <RiTwitterLine size ="2rem"   className = "socialIcon tw"/>
                     </TwitterShareButton> 
                 </Col>
             </Row>

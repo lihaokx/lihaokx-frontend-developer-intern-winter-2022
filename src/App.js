@@ -1,7 +1,6 @@
-import logo from './logo.svg';
 import './App.css';
 import NasaApi from './components/NasaApi';
-import { useState } from 'react';
+// import { useState } from 'react';
 import Header from './components/Header';
 function App() {
   

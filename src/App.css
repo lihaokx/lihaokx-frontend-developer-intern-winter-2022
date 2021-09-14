@@ -67,8 +67,17 @@
   height: 2rem;
   margin-top: 0.6em;
 }
+.notlike:hover{
+  color: #0d5df1;
+}
 .socialIcon{
   margin-top: 0.6em;
+}
+.fb:hover{
+  color: #0d5df1;
+}
+.tw:hover{
+  color: #0d5df1;
 }
 
 .imagesInCard{
@@ -163,4 +172,12 @@
   height: 25rem;
   width: 100%;
   z-index: -100;
+}
+
+.gitBtn{
+  color: black;
+}
+
+.gitBtn :hover{
+  color: rgb(21, 79, 206);
 }
