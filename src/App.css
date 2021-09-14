@@ -161,17 +161,14 @@
 
 .spaceIcon{
   color:#cfcdd1b4;
-  opacity: 50%;
+
 }
 
 .backgroundHead{
-  position: relative;
-  top:0%;
-  right: 0%;
-  left: 0%;
+ 
   height: 25rem;
   width: 100%;
-  z-index: -100;
+ 
 }
 
 .gitBtn{
