@@ -6,10 +6,11 @@ This project website is [here](https://lihaokx.github.io/lihaokx-frontend-develo
 
 ## Key features
 
-### 1. Fetch data from [a third-party API](https://api.nasa.gov/).
-### 2. Search for titile.
-### 3. Share image links to Facebook and Twitter.
-### 4. "Like" and "Unlike" a image.
+#### 1. Fetch data from [a third-party API](https://api.nasa.gov/).
+#### 2. Search for titile.
+#### 3. Share image links to Facebook and Twitter.
+#### 4. "Like" and "Unlike" a image.
+#### 5. Loading spinner while fetching data.
 
 ## Demo
 ![Demo](./Animation.gif "Demo")
