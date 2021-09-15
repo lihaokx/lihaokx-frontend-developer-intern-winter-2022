@@ -4,20 +4,28 @@ This project is built to help share photos from one of [NASA’s image APIs](htt
 
 This project website is [here](https://lihaokx.github.io/lihaokx-frontend-developer-intern-winter-2022/).
 
+## Key features
+
+### 1. Fetch data from [a third-party API](https://api.nasa.gov/).
+### 2. Search for titile.
+### 3. Share image links to Facebook and Twitter.
+### 4. "Like" and "Unlike" a image.
+
 ## Demo
 ![Demo](./Animation.gif "Demo")
 
-## Available Scripts
+## What do you need to do?
 
-In the project directory, you can run:
+### 1. Use the following scripts to download the whole project repository. 
 
-### `yarn start`
+`git clone https://github.com/lihaokx/lihaokx-frontend-developer-intern-winter-2022.git`
 
-Runs the app in the development mode.\
+### 2. Use `yarn install` to install all the necessary packages.
+
+### 3. Type `yarn start` to run the app in the development mode.
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## Available Scripts
 
 ### `yarn test`
 
@@ -31,7 +39,5 @@ It correctly bundles React in production mode and optimizes the build for the be
 
 The build is minified and the filenames include the hashes.\
 Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
  
 
