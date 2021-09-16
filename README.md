@@ -9,7 +9,7 @@ This project website is hosted here https://lihaokx.github.io/lihaokx-frontend-d
 #### 1. Fetch data from [a third-party API](https://api.nasa.gov/).
 #### 2. Search for title.
 #### 3. Share image links to Facebook and Twitter.
-#### 4. "Like" and "Unlike" a image.
+#### 4. "Like" and "Unlike" an image.
 #### 5. Loading spinner while fetching data.
 
 ## Demo
