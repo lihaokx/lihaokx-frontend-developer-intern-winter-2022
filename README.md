@@ -2,12 +2,12 @@
 
 This project is built to help share photos from one of [NASA’s image APIs](https://api.nasa.gov/). It can pull images, and allow the user to “like” and “unlike” their favourite images. 
 
-This project website is [here](https://lihaokx.github.io/lihaokx-frontend-developer-intern-winter-2022/).
+This project website is hosted here https://lihaokx.github.io/lihaokx-frontend-developer-intern-winter-2022/.
 
 ## Key features
 
 #### 1. Fetch data from [a third-party API](https://api.nasa.gov/).
-#### 2. Search for titile.
+#### 2. Search for title.
 #### 3. Share image links to Facebook and Twitter.
 #### 4. "Like" and "Unlike" a image.
 #### 5. Loading spinner while fetching data.
